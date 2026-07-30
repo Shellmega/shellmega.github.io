@@ -74,20 +74,6 @@
 
   
   <url>
-    <loc>https://shellmega.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shellmega.github.io/tags/%E5%BC%80%E5%9C%BA/</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shellmega.github.io/tags/Hexo/</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -108,17 +94,31 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://shellmega.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://shellmega.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
+    <loc>https://shellmega.github.io/tags/%E5%BC%80%E5%9C%BA/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
     <loc>https://shellmega.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shellmega.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
