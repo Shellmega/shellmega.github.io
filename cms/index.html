@@ -210,6 +210,29 @@
   </footer>
 
   <script src="/cms/decap-cms.js"></script>
+  <script>
+    // Decap 渲染完成(#nc-root 出现且有内容)后, 移除过渡加载页, 让后台界面完整显示
+    (function () {
+      var tries = 0;
+      var timer = setInterval(function () {
+        tries++;
+        var root = document.getElementById('nc-root');
+        if (root && root.children.length > 0) {
+          clearInterval(timer);
+          document.querySelectorAll('.cn-nav, .cn-main, .cn-footer, style').forEach(function (el) {
+            if (el.parentNode) el.parentNode.removeChild(el);
+          });
+          document.body.style.cssText = '';
+        } else if (tries > 300) {
+          // 30 秒超时兜底: 移除加载页, 避免永久卡在过渡页
+          clearInterval(timer);
+          document.querySelectorAll('.cn-nav, .cn-main, .cn-footer').forEach(function (el) {
+            if (el.parentNode) el.parentNode.removeChild(el);
+          });
+        }
+      }, 100);
+    })();
+  </script>
 </body>
 </html>
 <div id="gitalk-initiator"></div>
