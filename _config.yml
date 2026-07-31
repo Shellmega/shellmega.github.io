@@ -95,6 +95,9 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+## skip_render: copy these files as-is instead of rendering them
+skip_render:
+  - 'cms/config.yml'
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
