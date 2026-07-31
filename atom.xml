@@ -10,13 +10,13 @@
   <rights>All rights reserved 2026, Shellmega</rights>
   <subtitle>思考 · 记录 · 分享</subtitle>
   <title>Shellmega</title>
-  <updated>2026-07-31T14:48:09.406Z</updated>
+  <updated>2026-07-31T15:13:23.922Z</updated>
   <entry>
     <author>
       <name>Shellmega</name>
     </author>
     <content>
-      <![CDATA[<h1 id="大一加入-Embodiment-AI-实验室学习路线"><a href="#大一加入-Embodiment-AI-实验室学习路线" class="headerlink" title="大一加入 Embodiment AI 实验室学习路线"></a>大一加入 Embodiment AI 实验室学习路线</h1><h2 id="一、已有优势"><a href="#一、已有优势" class="headerlink" title="一、已有优势"></a>一、已有优势</h2><p>具备 NOIP 一等奖基础，通常已经掌握：</p><ul><li>C++ 和数据结构</li><li>算法设计与复杂度分析</li><li>抽象建模和调试能力</li></ul><p>接下来重点补充：</p><blockquote><p>数学基础 + 机器学习 + 机器人系统 + 实验工程</p></blockquote><h2 id="二、学习重点"><a href="#二、学习重点" class="headerlink" title="二、学习重点"></a>二、学习重点</h2><h3 id="1-AI-工具链"><a href="#1-AI-工具链" class="headerlink" title="1. AI 工具链"></a>1. AI 工具链</h3><ul><li>Python</li><li>NumPy</li><li>PyTorch</li><li>OpenCV</li><li>Linux</li><li>Git</li><li>CUDA 基础</li><li>CMake</li></ul><p>目标：能够独立完成数据处理、模型训练、结果分析和代码复现。</p><h3 id="2-数学"><a href="#2-数学" class="headerlink" title="2. 数学"></a>2. 数学</h3><ul><li>线性代数：矩阵、SVD、旋转矩阵、四元数、坐标变换</li><li>概率论：高斯分布、贝叶斯、卡尔曼滤波</li><li>优化：梯度下降、最小二乘、非线性优化</li><li>控制：PID、状态空间、轨迹跟踪</li></ul><h3 id="3-机器人"><a href="#3-机器人" class="headerlink" title="3. 机器人"></a>3. 机器人</h3><ul><li>ROS 2</li><li>TF 坐标变换</li><li>RViz</li><li>URDF</li><li>正逆运动学</li><li>雅可比矩阵</li><li>碰撞检测</li><li>运动规划</li><li>MoveIt 2</li></ul><h3 id="4-计算机视觉"><a href="#4-计算机视觉" class="headerlink" title="4. 计算机视觉"></a>4. 计算机视觉</h3><ul><li>相机模型和标定</li><li>目标检测</li><li>语义分割</li><li>深度估计</li><li>点云</li><li>AprilTag</li><li>PnP</li><li>视觉里程计</li></ul><h3 id="5-具身智能方向"><a href="#5-具身智能方向" class="headerlink" title="5. 具身智能方向"></a>5. 具身智能方向</h3><p>选择一个方向深入：</p><ul><li>机器人导航</li><li>运动规划</li><li>机械臂操作</li><li>SLAM</li><li>强化学习</li><li>模仿学习</li><li>视觉语言动作模型</li><li>Sim-to-Real</li></ul><h2 id="三、推荐学习路线"><a href="#三、推荐学习路线" class="headerlink" title="三、推荐学习路线"></a>三、推荐学习路线</h2><div id="gitalk-initiator"></div><h3 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h3><ul><li>Python、Linux、Git</li><li>PyTorch 和 OpenCV</li><li>线性代数、概率论</li><li>完成一个视觉项目</li></ul><h3 id="大一下"><a href="#大一下" class="headerlink" title="大一下"></a>大一下</h3><ul><li>ROS 2</li><li>机器人坐标系</li><li>Gazebo、MuJoCo 或 PyBullet</li><li>完成移动机器人避障项目</li></ul><h3 id="大二上"><a href="#大二上" class="headerlink" title="大二上"></a>大二上</h3><p>选择一个方向深入，完成：</p><ul><li>论文阅读</li><li>开源代码复现</li><li>对比实验</li><li>实验报告</li></ul><h2 id="四、推荐项目"><a href="#四、推荐项目" class="headerlink" title="四、推荐项目"></a>四、推荐项目</h2><ol><li>A*、RRT 机器人路径规划可视化</li><li>ROS 2 移动机器人避障</li><li>摄像头目标检测与位置估计</li><li>机械臂逆运动学与抓取</li><li>基础模仿学习</li><li>视觉语言机器人仿真</li></ol><h2 id="五、六个月目标"><a href="#五、六个月目标" class="headerlink" title="五、六个月目标"></a>五、六个月目标</h2><p>完成一个完整项目：</p><blockquote><p>摄像头识别目标，经过坐标转换后，控制仿真机器人执行简单动作。</p></blockquote><p>项目应包含：</p><ul><li>PyTorch 或 OpenCV</li><li>ROS 2</li><li>坐标转换</li><li>仿真运行</li><li>结果视频</li><li>GitHub README</li><li>失败案例分析</li></ul><h2 id="六、联系实验室前的准备"><a href="#六、联系实验室前的准备" class="headerlink" title="六、联系实验室前的准备"></a>六、联系实验室前的准备</h2><p>准备：</p><ul><li>一页简历</li><li>一个可运行的 GitHub 项目</li><li>一篇论文阅读笔记</li><li>对实验室近期工作的了解</li></ul><p>联系老师时说明：</p><ul><li>自己的 NOIP 一等奖基础</li><li>已掌握的工具</li><li>已完成的项目</li><li>感兴趣的研究方向</li><li>希望从代码复现、数据处理或仿真实验开始</li></ul><h2 id="七、优先级"><a href="#七、优先级" class="headerlink" title="七、优先级"></a>七、优先级</h2><ol><li>Python、PyTorch、Linux、Git</li><li>OpenCV、ROS 2、数学基础</li><li>机器人学、控制、运动规划</li><li>强化学习、模仿学习、VLA</li><li>论文复现和真实机器人部署</li></ol><p>最重要的是：不要只刷算法题，要尽快完成一个能运行、能展示、能复现的机器人项目。</p><pre><code class="*"></code></pre>]]>
+      <![CDATA[<h1 id="大一加入-Embodiment-AI-实验室学习路线"><a href="#大一加入-Embodiment-AI-实验室学习路线" class="headerlink" title="大一加入 Embodiment AI 实验室学习路线"></a>大一加入 Embodiment AI 实验室学习路线</h1><h2 id="一、已有优势"><a href="#一、已有优势" class="headerlink" title="一、已有优势"></a>一、已有优势</h2><p>具备 NOIP 一等奖基础，通常已经掌握：</p><ul><li>C++ 和数据结构</li><li>算法设计与复杂度分析</li><li>抽象建模和调试能力</li></ul><p>接下来重点补充：</p><blockquote><p>数学基础 + 机器学习 + 机器人系统 + 实验工程</p></blockquote><h2 id="二、学习重点"><a href="#二、学习重点" class="headerlink" title="二、学习重点"></a>二、学习重点</h2><h3 id="1-AI-工具链"><a href="#1-AI-工具链" class="headerlink" title="1. AI 工具链"></a>1. AI 工具链</h3><ul><li>Python</li><li>NumPy</li><li>PyTorch</li><li>OpenCV</li><li>Linux</li><li>Git</li><li>CUDA 基础</li><li>CMake</li></ul><p>目标：能够独立完成数据处理、模型训练、结果分析和代码复现。</p><h3 id="2-数学"><a href="#2-数学" class="headerlink" title="2. 数学"></a>2. 数学</h3><ul><li>线性代数：矩阵、SVD、旋转矩阵、四元数、坐标变换</li><li>概率论：高斯分布、贝叶斯、卡尔曼滤波</li><li>优化：梯度下降、最小二乘、非线性优化</li><li>控制：PID、状态空间、轨迹跟踪</li></ul><h3 id="3-机器人"><a href="#3-机器人" class="headerlink" title="3. 机器人"></a>3. 机器人</h3><ul><li>ROS 2</li><li>TF 坐标变换</li><li>RViz</li><li>URDF</li><li>正逆运动学</li><li>雅可比矩阵</li><li>碰撞检测</li><li>运动规划</li><li>MoveIt 2</li></ul><h3 id="4-计算机视觉"><a href="#4-计算机视觉" class="headerlink" title="4. 计算机视觉"></a>4. 计算机视觉</h3><ul><li>相机模型和标定</li><li>目标检测</li><li>语义分割</li><li>深度估计</li><li>点云</li><li>AprilTag</li><li>PnP</li><li>视觉里程计</li></ul><h3 id="5-具身智能方向"><a href="#5-具身智能方向" class="headerlink" title="5. 具身智能方向"></a>5. 具身智能方向</h3><p>选择一个方向深入：</p><ul><li>机器人导航</li><li>运动规划</li><li>机械臂操作</li><li>SLAM</li><li>强化学习</li><li>模仿学习</li><li>视觉语言动作模型</li><li>Sim-to-Real</li></ul><h2 id="三、推荐学习路线"><a href="#三、推荐学习路线" class="headerlink" title="三、推荐学习路线"></a>三、推荐学习路线</h2><div id="gitalk-initiator"></div><h3 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h3><ul><li>Python、Linux、Git</li><li>PyTorch 和 OpenCV</li><li>线性代数、概率论</li><li>完成一个视觉项目</li></ul><h3 id="大一下"><a href="#大一下" class="headerlink" title="大一下"></a>大一下</h3><ul><li>ROS 2</li><li>机器人坐标系</li><li>Gazebo、MuJoCo 或 PyBullet</li><li>完成移动机器人避障项目</li></ul><h3 id="大二上"><a href="#大二上" class="headerlink" title="大二上"></a>大二上</h3><p>选择一个方向深入，完成：</p><ul><li>论文阅读</li><li>开源代码复现</li><li>对比实验</li><li>实验报告</li></ul><h2 id="四、推荐项目"><a href="#四、推荐项目" class="headerlink" title="四、推荐项目"></a>四、推荐项目</h2><ol><li>A*、RRT 机器人路径规划可视化</li><li>ROS 2 移动机器人避障</li><li>摄像头目标检测与位置估计</li><li>机械臂逆运动学与抓取</li><li>基础模仿学习</li><li>视觉语言机器人仿真</li></ol><h2 id="五、六个月目标"><a href="#五、六个月目标" class="headerlink" title="五、六个月目标"></a>五、六个月目标</h2><p>完成一个完整项目：</p><blockquote><p>摄像头识别目标，经过坐标转换后，控制仿真机器人执行简单动作。</p></blockquote><p>项目应包含：</p><ul><li>PyTorch 或 OpenCV</li><li>ROS 2</li><li>坐标转换</li><li>仿真运行</li><li>结果视频</li><li>GitHub README</li><li>失败案例分析</li></ul><h2 id="六、联系实验室前的准备"><a href="#六、联系实验室前的准备" class="headerlink" title="六、联系实验室前的准备"></a>六、联系实验室前的准备</h2><p>准备：</p><ul><li>一页简历</li><li>一个可运行的 GitHub 项目</li><li>一篇论文阅读笔记</li><li>对实验室近期工作的了解</li></ul><p>联系老师时说明：</p><ul><li>自己的 NOIP 一等奖基础</li><li>已掌握的工具</li><li>已完成的项目</li><li>感兴趣的研究方向</li><li>希望从代码复现、数据处理或仿真实验开始</li></ul><h2 id="七、优先级"><a href="#七、优先级" class="headerlink" title="七、优先级"></a>七、优先级</h2><ol><li>Python、PyTorch、Linux、Git</li><li>OpenCV、ROS 2、数学基础</li><li>机器人学、控制、运动规划</li><li>强化学习、模仿学习、VLA</li><li>论文复现和真实机器人部署</li></ol><p>最重要的是：不要只刷算法题，要尽快完成一个能运行、能展示、能复现的机器人项目。</p>]]>
     </content>
     <id>https://shellmega.github.io/2026/07/30/%E6%96%B0%E5%AD%A6%E5%B9%B4%E8%A7%84%E5%88%92/</id>
     <link href="https://shellmega.github.io/2026/07/30/%E6%96%B0%E5%AD%A6%E5%B9%B4%E8%A7%84%E5%88%92/"/>
@@ -25,7 +25,7 @@
       <![CDATA[<h1 id="大一加入-Embodiment-AI-实验室学习路线"><a href="#大一加入-Embodiment-AI-实验室学习路线" class="headerlink" title="大一加入 Embodiment AI 实验室学习路线"></a>大一加入 Emb]]>
     </summary>
     <title>新学年规划</title>
-    <updated>2026-07-31T14:48:09.406Z</updated>
+    <updated>2026-07-31T15:13:23.922Z</updated>
   </entry>
   <entry>
     <author>
@@ -43,7 +43,7 @@
     <published>2026-07-29T09:00:00.000Z</published>
     <summary>从 Wordpress 到 Hexo，多方案对比与最终选择的技术思考。</summary>
     <title>搭建个人博客的技术选型思考</title>
-    <updated>2026-07-31T14:48:09.406Z</updated>
+    <updated>2026-07-31T15:13:23.922Z</updated>
   </entry>
   <entry>
     <author>
@@ -60,6 +60,6 @@
     <published>2026-07-29T08:00:00.000Z</published>
     <summary>博客的第一篇文章，介绍博客的初衷、技术栈选择和未来计划。</summary>
     <title>你好，世界</title>
-    <updated>2026-07-31T14:48:09.406Z</updated>
+    <updated>2026-07-31T15:13:23.922Z</updated>
   </entry>
 </feed>

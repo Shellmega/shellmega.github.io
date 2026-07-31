@@ -5,7 +5,7 @@
   <title>Shellmega</title>
   <link>https://shellmega.github.io</link>
   <description>一个专注于写作的个人博客，记录技术学习与生活思考。</description>
-  <lastBuildDate>Fri, 31 Jul 2026 14:48:23 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 31 Jul 2026 15:13:40 GMT</lastBuildDate>
   <image>
       <url>https://shellmega.github.ioundefined</url>
       <title>Shellmega</title>
@@ -140,8 +140,6 @@
 <li>论文复现和真实机器人部署</li>
 </ol>
 <p>最重要的是：不要只刷算法题，要尽快完成一个能运行、能展示、能复现的机器人项目。</p>
-<pre><code class="*">
-</code></pre>
 ]]></description>
     </item>
     <item>
