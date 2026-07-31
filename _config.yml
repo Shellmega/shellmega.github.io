@@ -122,6 +122,31 @@ deploy:
   repo: https://github.com/Shellmega/shellmega.github.io.git
   branch: main
 
+# Theme customization
+## 覆盖 linen 主题默认配置 (进入 git, CI 可复现; 勿再修改 node_modules 里的主题配置)
+theme_config:
+  stylesheets:
+    - /linen-theme/css/linen.css
+    - /css/custom.css
+  scripts:
+    - /linen-theme/js/linen.js
+  logo:
+    text: Shellmega
+  navItems:
+    - name: 首页
+      path: /
+    - name: 归档
+      path: /archives
+    - name: 分类
+      path: /categories
+    - name: 标签
+      path: /tags
+    - name: 关于
+      path: /about
+  info:
+    github: https://github.com/Shellmega
+    site_desc: '思考 · 记录 · 分享'
+
 # Admin Panel
 admin:
   username: shellmega
