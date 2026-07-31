@@ -8,23 +8,104 @@ layout: false
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow" />
   <title>内容管理 · Shellmega</title>
+  <link rel="icon" href="/linen-theme/favicon.svg" type="image/svg+xml" />
   <style>
-    body {
-      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background: #fafafa;
-      color: #333;
+    :root {
+      --cms-bg: #fafafa;
+      --cms-card: #ffffff;
+      --cms-border: #e5e5e5;
+      --cms-ink: #1a1a1a;
+      --cms-muted: #8a8a8a;
+      --cms-accent: #111111;
     }
-    #loader { font-size: 15px; letter-spacing: 0.5px; }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body { height: 100%; }
+
+    body {
+      font-family: "Source Han Serif SC", "Songti SC", "Noto Serif SC", Georgia, "Times New Roman", serif;
+      background: var(--cms-bg);
+      color: var(--cms-ink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .cms-wrap {
+      text-align: center;
+      padding: 48px 56px;
+      background: var(--cms-card);
+      border: 1px solid var(--cms-border);
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+      max-width: 90vw;
+    }
+
+    .cms-logo {
+      width: 56px;
+      height: 56px;
+      margin: 0 auto 20px;
+      display: block;
+      filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.08));
+    }
+
+    .cms-title {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: var(--cms-ink);
+    }
+
+    .cms-subtitle {
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--cms-muted);
+      letter-spacing: 0.04em;
+    }
+
+    .cms-spinner {
+      width: 26px;
+      height: 26px;
+      margin: 24px auto 0;
+      border: 2px solid var(--cms-border);
+      border-top-color: var(--cms-accent);
+      border-radius: 50%;
+      animation: cms-spin 0.9s linear infinite;
+    }
+
+    @keyframes cms-spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .cms-loading-text {
+      margin-top: 14px;
+      font-size: 13px;
+      color: var(--cms-muted);
+      letter-spacing: 0.1em;
+      animation: cms-pulse 1.6s ease-in-out infinite;
+    }
+
+    @keyframes cms-pulse {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 1; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .cms-spinner { animation: none; border-top-color: var(--cms-border); }
+      .cms-loading-text { animation: none; opacity: 0.75; }
+    }
   </style>
 </head>
 <body>
-  <div id="loader">正在加载内容管理后台…</div>
-  <!-- 本地化部署，避免第三方 CDN 被浏览器跟踪预防拦截 -->
+  <div class="cms-wrap">
+    <img class="cms-logo" src="/linen-theme/img/logo_black.svg" alt="Shellmega" />
+    <div class="cms-title">内容管理</div>
+    <div class="cms-subtitle">Shellmega Blog</div>
+    <div class="cms-spinner" role="status" aria-label="加载中"></div>
+    <div class="cms-loading-text">正在加载内容管理后台…</div>
+  </div>
   <script src="/cms/decap-cms.js"></script>
 </body>
 </html>
